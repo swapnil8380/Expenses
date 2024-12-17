@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Expenses</title>
+    <link rel="stylesheet" href="styles/styles.css"> <!-- Link to your index page-specific styles -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- For icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.0/scrollreveal.min.js"></script> <!-- For scroll animations -->
+</head>
+<body id="index-page">
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <h1>Welcome to the Manage Expenses Website</h1>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Track and Manage Your Expenses Effortlessly</h2>
+           
+            <p>Welcome to the Manage Expenses app, where you can easily track, share, and divide your expenses with friends and family. Stay on top of your financial goals with intuitive and user-friendly features.</p>
+            <div class="auth-options">
+                <button class="btn" onclick="window.location.href='login.html'">Login</button>
+                <button class="btn" onclick="window.location.href='register.html'">Sign Up</button>
+            </div> 
+        </div>
+        <div class="logo-image">
+          <img src="assets/homepagelogo.png" alt="Manage Expenses Logo" class="logo-image">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-content">
+            <h2>About the App</h2>
+            <p>This platform helps you manage group expenses. You can create groups, add members, and track daily, weekly, and monthly expenses. It keeps a log of all transactions, and lets you see the balances between group members, making sure everyone pays their share.</p>
+            <p>Get started by signing up and adding your first group today!</p>
+        </div>
+        <div class="logo01">
+          <img src="assets/logo.png" alt="Expenses Logo" class="logo01">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Manage Expenses. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // ScrollReveal animation
+        ScrollReveal().reveal('.hero-content', { delay: 200, distance: '50px', origin: 'bottom', opacity: 0, duration: 1000 });
+        ScrollReveal().reveal('.section-content', { delay: 300, distance: '50px', origin: 'bottom', opacity: 0, duration: 1000 });
+    </script>
+
+</body>
+</html>

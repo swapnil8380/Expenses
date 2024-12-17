@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Group</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Create Group</h1>
+    <form id="groupForm">
+      <label for="groupName">Group Name:</label>
+      <input type="text" id="groupName" required>
+      <label for="groupUsernames">Add members:</label>
+      <input type="text" id="groupUsernames" required>
+      <button type="submit">Create Group</button>
+    </form>
+    <p id="responseMessage"></p>
+  </div>
+  <script src="scripts/group.js"></script>
+</body>
+</html>
